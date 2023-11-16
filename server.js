@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const userrouter = require('./router/users')
+const userrouter = require('./router/ekstras')
 const connectDB = require('./config/db')
 const port = 5000
 
