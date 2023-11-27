@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const UserSchema = new mongoose.Schema({
+const EkstraSchema = new mongoose.Schema({
     nama_ekskul: {
         type: String,
         required: [true, 'Silahkan isikan nama ekskul'],
@@ -33,4 +33,4 @@ const UserSchema = new mongoose.Schema({
     },
 })
 
-module.exports = mongoose.model('Ekskul', UserSchema)
+module.exports = mongoose.model('Ekskul', EkstraSchema)
