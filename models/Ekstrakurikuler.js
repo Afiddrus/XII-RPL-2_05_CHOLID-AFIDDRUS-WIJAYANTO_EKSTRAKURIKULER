@@ -9,27 +9,22 @@ const EkstraSchema = new mongoose.Schema({
     jadwal_ekskul: {
         type: String,
         required: [true, 'Silahkan isikan jadwal ekskul'],
-        unique: true
     },
     pembimbing_ekskul: {
         type: String,
         required: [true, 'Silahkan isikan pembimbing ekskul'],
-        unique: true
     },
     lokasi_ekskul: {
         type: String,
         required: [true, 'Silahkan isikan lokasi ekskul'],
-        unique: true
     },
     total_murid: {
         type: String,
         required: [true, 'Silahkan isikan total murid'],
-        unique: true
     },
     kontak_pembimbing: {
         type: String,
         required: [true, 'Silahkan isikan kontak pembimbing'],
-        unique: true
     },
 })
 
